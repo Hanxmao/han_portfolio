@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi! I'm Han</title>
+    <!-- <link rel="icon" href="./favicon.svg" type="image/svg+xml"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v1"/>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <!-- css file -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- preload image -->
+    <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+</head>
+<body>
+    <!-------------------- header ------------------------>
+    <header class="header" data-header>
+        <div class="container">
+            <a href="#" class="logo">
+                <h1>Han</h1>
+            </a>
+            <nav class="navbar" data-navbar>
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <h1>Han</h1>
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#home" class="navbar-link" data-nav-link>Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="navbar-link" data-nav-link>About</a>
+                    </li>
+                    <li>
+                        <a href="#education" class="navbar-link" data-nav-link>Education</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="navbar-link" data-nav-link>Projects</a>
+                    </li>
+                    <li>
+                        <a href="#experience" class="navbar-link" data-nav-link>Work Experience</a>
+                    </li>
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:hanxmao@hotmail.com" class="contact-link">hanxmao@hotmail.com</a>
+                </div>
+
+                <ul class="social-list">
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="social-link">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler="">
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+    <!--------------------- main -------------------------->
+    <main>
+        <article>
+            <!------------------------ home ------------------------->
+            <section class="section hero" aria-label="home">
+                <div class="container">
+                    <figure class="hero-banner">
+                        <img src="./assets/images/hero-banner.jpg" class="w-100" alt="Han" data-reveal="top">
+                    </figure>
+
+                    <div class="hero-content">
+                        <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+                            Hi! My name is Han!
+                        </h1>
+                        <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                            I'm a Computer Systems Technology(CST) Co-op student @ BCIT.
+                        </p>
+
+                        <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                            <a href="#" class="btn btn-primary">See My Works</a>
+                            <a href="#" class="btn btn-secondary">Contact Me</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!------------------------ about ------------------------->
+            <section class="section about" aria-label="about">
+                <div class="container">
+                    <div class="wrapper">
+                        <div data-reveal="left">
+                            <h2 class="h2 section-title">About Me</h2>
+                            <p class="section-text">
+                                Hi there, my name is Hanxiao Mao and you can call me Han. After finished my first term journey at BCIT, I am now seeking an entry-level role in the tech industry, from QA Engineer, DevOps Engineer, Front-End Web Developer to Full-Stack Web Developer. Prior to CST program, I have competed a full-stack web development BootCamp program at CodeCore College. Exploring the digital world is my passion, and I want to deliver top-quality code by improving technical ability and gain experience on large-scale projects. There is so much to learn in every field and I'm ready for it!
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!------------------------ skill ------------------------->
+            <!-- <section class="section skill" id="skill">
+                <h2 class="h2 section-title">Skills</h2>
+                
+            </section> -->
+            <!------------------------ project ------------------------->
+            <section class="section project" aria-labelledby="project-label">
+                <div class="container">
+                    <div class="title-wrapper" data-reveal="top">
+                        <div>
+                            <h2 class="h2 section-title" id="project-label">Projects</h2>
+
+                        </div>
+                        
+                    </div>
+
+                    <ul class="grid-list">
+                        <li>
+                            <div class="project-card project-card-1" style="background-color:#f8f5fb">
+                                <div class="card-content" data-reveal="left">
+                                    <p class="card-tag" style="color: #a07cc5">
+                                    Mobile Design</p>
+                                    <h3 class="h3 card-title">
+                                        Credo
+                                    </h3>
+                                    <p class="card-text">
+                                        A Mobile app aims to help people who want to apply for or already own credit products; to save their time and energy in applying by offering them recommendations based on their special needs.
+                                    </p>
+
+                                    <a href="#" class="btn-text" style="color:#a07cc5">
+                                        <span>See Code</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./assets/images/project-1.png" width="650" height="370" loading="lazy" alt="Mobile design app Credo" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-2" style="background-color: #F0F8FF;">
+                                <div class="card-content" data-reveal="right">
+                                    <p class="card-tag" style="color: #3f78e0">
+                                    Web Design</p>
+                                    <h3 class="h3 card-title">
+                                        Delish
+                                    </h3>
+                                    <p class="card-text">
+                                        A homemade meal web app to connect home cooks and customers. Home cooks can create meals and set up price while customers can order meals and give them reviews.
+                                    </p>
+
+                                    <a href="#" class="btn-text" style="color:#3f78e0">
+                                        <span>See Code</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="left">
+                                    <img src="./assets/images/project-2.png" width="650" height="370" loading="lazy" alt="Web design app Delish" class="w-100">
+                                </figure>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <!------------------------- contact ------------------------>
+            <section class="section contact" aria-label="contact">
+                <div class="container">
+                    <div class="contact-card">
+                        <div class="contact-content" data-reveal="left">
+                            <div class="card-icon">
+                                <img src="./assets//images//icon-5.svg" width="44" height="44" alt="contact icon">
+                            </div>
+                            <h2 class="h2 section-title">Contact me</h2>
+
+                            <p class="section-text">
+                                Let's get in touch!
+                            </p>
+                        </div>
+
+                        <form action="" class="contact-form" data-reveal="right">
+                            <div class="input-wrapper">
+                                <input type="text" class="input-field" name="name" placeholder="Name *" required>
+                                <input type="email" class="input-field" name="email_address" placeholder="Email *" required>
+                            </div>
+
+                            <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+                            <button type="submit" class="btn btn-secondary">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+            <!-------------------------- footer ------------------------>
+            <footer class="footer">
+                <div class="container">
+                    <p class="copyright">
+                        Han &#169 2023 Copyright.
+                    </p>
+                    <ul class="social-list">
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="social-link">
+                                <ion-icon name="logo-twitter"></ion-icon>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </footer>
+        </article>
+    </main>
+    <!-- script -->
+    <script src="./assets/js/script.js"></script>
+    <!-- ionicon -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
