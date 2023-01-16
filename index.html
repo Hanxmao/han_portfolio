@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hi! I'm Han</title>
     <!-- <link rel="icon" href="./favicon.svg" type="image/svg+xml"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v1"/>
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.ico?v1" />
     <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +16,15 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- preload image -->
     <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("ujZodUI_1SupV9PPu");
+        })();
+    </script>
 </head>
+
 <body>
     <!-------------------- header ------------------------>
     <header class="header" data-header>
@@ -66,12 +75,12 @@
                     </li>
                     <li>
                         <a href="https://github.com/Hanxmao" class="social-link" target="_blank">
-                            <ion-icon name="logo-github" ></ion-icon>
+                            <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </li>
                     <li>
                         <a href="https://twitter.com/hanxmao" class="social-link" target="_blank">
-                            <ion-icon name="logo-twitter" ></ion-icon>
+                            <ion-icon name="logo-twitter"></ion-icon>
                         </a>
                     </li>
                 </ul>
@@ -115,7 +124,13 @@
                         <div data-reveal="left">
                             <h2 class="h2 section-title">About Me</h2>
                             <p class="section-text">
-                                Hi there, my name is Hanxiao Mao and you can call me Han. After finished my first term journey at BCIT, I am now seeking an entry-level role in the tech industry, from QA Engineer, DevOps Engineer, Front-End Web Developer to Full-Stack Web Developer. Prior to CST program, I have competed a full-stack web development BootCamp program at CodeCore College. Exploring the digital world is my passion, and I want to deliver top-quality code by improving technical ability and gain experience on large-scale projects. There is so much to learn in every field and I'm ready for it!
+                                Hi there, my name is Hanxiao Mao and you can call me Han. After finished my first term
+                                journey at BCIT, I am now seeking an entry-level role in the tech industry, from QA
+                                Engineer, DevOps Engineer, Front-End Web Developer to Full-Stack Web Developer. Prior to
+                                CST program, I have competed a full-stack web development BootCamp program at CodeCore
+                                College. Exploring the digital world is my passion, and I want to deliver top-quality
+                                code by improving technical ability and gain experience on large-scale projects. There
+                                is so much to learn in every field and I'm ready for it!
                             </p>
                         </div>
 
@@ -135,7 +150,7 @@
                             <h2 class="h2 section-title" id="project-label">Projects</h2>
 
                         </div>
-                        
+
                     </div>
 
                     <ul class="grid-list">
@@ -143,15 +158,18 @@
                             <div class="project-card project-card-1" style="background-color:#f8f5fb">
                                 <div class="card-content" data-reveal="left">
                                     <p class="card-tag" style="color: #a07cc5">
-                                    Mobile Design</p>
+                                        Mobile Design</p>
                                     <h3 class="h3 card-title">
                                         Credo
                                     </h3>
                                     <p class="card-text">
-                                        A Mobile app aims to help people who want to apply for or already own credit products; to save their time and energy in applying by offering them recommendations based on their special needs.
+                                        A Mobile app aims to help people who want to apply for or already own credit
+                                        products; to save their time and energy in applying by offering them
+                                        recommendations based on their special needs.
                                     </p>
 
-                                    <a href="https://github.com/Hanxmao/1800-202230-DTC16" class="btn-text" style="color:#a07cc5" target="_blank">
+                                    <a href="https://github.com/Hanxmao/1800-202230-DTC16" class="btn-text"
+                                        style="color:#a07cc5" target="_blank">
                                         <span>See Code</span>
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                     </a>
@@ -163,7 +181,8 @@
                                 </div>
 
                                 <figure class="card-banner" data-reveal="right">
-                                    <img src="./assets/images/credo.jpg" width="650" height="370" loading="lazy" alt="Mobile design app Credo" class="w-100">
+                                    <img src="./assets/images/credo.jpg" width="650" height="370" loading="lazy"
+                                        alt="Mobile design app Credo" class="w-100">
                                 </figure>
                             </div>
                         </li>
@@ -172,19 +191,23 @@
                             <div class="project-card project-card-2" style="background-color: #F0F8FF;">
                                 <div class="card-content" data-reveal="right">
                                     <p class="card-tag" style="color: #3f78e0">
-                                    Web Design</p>
+                                        Web Design</p>
                                     <h3 class="h3 card-title">
                                         Delish
                                     </h3>
                                     <p class="card-text">
-                                        A homemade meal web app to connect home cooks and customers. Home cooks can create meals and set up price while customers can order meals and give them reviews.
+                                        A homemade meal web app to connect home cooks and customers. Home cooks can
+                                        create meals and set up price while customers can order meals and give them
+                                        reviews.
                                     </p>
 
-                                    <a href="https://github.com/Hanxmao/Homemade_Meals_APP" class="btn-text" style="color:#3f78e0" target="_blank">
+                                    <a href="https://github.com/Hanxmao/Homemade_Meals_APP" class="btn-text"
+                                        style="color:#3f78e0" target="_blank">
                                         <span>See Code</span>
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                     </a>
-                                    <a href="https://www.youtube.com/watch?v=sMqee24ct54" class="btn-text" style="color:#3f78e0" target="_blank">
+                                    <a href="https://www.youtube.com/watch?v=sMqee24ct54" class="btn-text"
+                                        style="color:#3f78e0" target="_blank">
                                         <span>Watch live</span>
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                     </a>
@@ -192,7 +215,8 @@
                                 </div>
 
                                 <figure class="card-banner" data-reveal="left">
-                                    <img src="./assets/images/delish.jpg" width="650" height="370" loading="lazy" alt="Web design app Delish" class="w-100">
+                                    <img src="./assets/images/delish.jpg" width="650" height="370" loading="lazy"
+                                        alt="Web design app Delish" class="w-100">
                                 </figure>
                             </div>
                         </li>
@@ -214,15 +238,19 @@
                             </p>
                         </div>
 
-                        <form action="" class="contact-form" data-reveal="right">
+                        <form action="" class="contact-form" data-reveal="right" id="contact-form">
                             <div class="input-wrapper">
-                                <input type="text" class="input-field" name="name" placeholder="Name *" required>
-                                <input type="email" class="input-field" name="email_address" placeholder="Email *" required>
+                                <input type="text" class="input-field" name="name" placeholder="Name *" required
+                                    id="contact-name">
+                                <input type="email" class="input-field" name="email_address" placeholder="Email *"
+                                    required id="contact-email">
                             </div>
 
-                            <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+                            <textarea name="message" placeholder="Message *" required class="input-field"
+                                id="contact-message"></textarea>
 
                             <button type="submit" class="btn btn-secondary">Send Message</button>
+                            <p class="contact__status" id="contact-status"></p>
                         </form>
                     </div>
                 </div>
@@ -241,12 +269,12 @@
                         </li>
                         <li>
                             <a href="https://github.com/Hanxmao" class="social-link" target="_blank">
-                                <ion-icon name="logo-github" ></ion-icon>
+                                <ion-icon name="logo-github"></ion-icon>
                             </a>
                         </li>
                         <li>
                             <a href="https://twitter.com/hanxmao" class="social-link" target="_blank">
-                                <ion-icon name="logo-twitter" ></ion-icon>
+                                <ion-icon name="logo-twitter"></ion-icon>
                             </a>
                         </li>
                     </ul>
@@ -254,10 +282,12 @@
             </footer>
         </article>
     </main>
+
     <!-- script -->
     <script src="./assets/js/script.js"></script>
     <!-- ionicon -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>

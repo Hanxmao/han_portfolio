@@ -16,6 +16,7 @@
 --gunmetal: hsla(214, 15%, 21%, 1);
 --charcoal: hsla(219, 22%, 26%, 1);
 --light-violet: hsla(270, 43%, 97%);
+--red: hsla(4, 71%, 50%);
 /* font family */
 --ff-manrope: 'Manrope', sans-serif;
 /* font size */
@@ -497,6 +498,18 @@ textarea.input-field {
   resize: vertical;
 }
 
+.contact__status{
+  font-size: var(--fs-8);
+  padding-block-end: 10px;
+}
+
+.color-blue {
+  color: var(--blue-gray);
+}
+
+.color-red {
+  color: var(--red);
+}
 
 /*----------------- footer ----------------*/
 .footer {
