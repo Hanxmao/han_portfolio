@@ -40,14 +40,17 @@
                     <li>
                         <a href="#about" class="navbar-link" data-nav-link>About</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#education" class="navbar-link" data-nav-link>Education</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a href="#project" class="navbar-link" data-nav-link>Projects</a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a href="#experience" class="navbar-link" data-nav-link>Work Experience</a>
+                    </li> -->
+                    <li>
+                        <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
                     </li>
                 </ul>
 
@@ -83,8 +86,8 @@
     <!--------------------- main -------------------------->
     <main>
         <article>
-            <!------------------------ home ------------------------->
-            <section class="section hero" aria-label="home">
+            <!------------------------ Hero ------------------------->
+            <section class="section hero" aria-label="home" id="home">
                 <div class="container">
                     <figure class="hero-banner">
                         <img src="./assets/images/hero-banner.jpg" class="w-100" alt="Han" data-reveal="top">
@@ -99,14 +102,14 @@
                         </p>
 
                         <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
-                            <a href="#" class="btn btn-primary">See My Works</a>
-                            <a href="#" class="btn btn-secondary">Contact Me</a>
+                            <a href="#project" class="btn btn-primary">See My Works</a>
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
                         </div>
                     </div>
                 </div>
             </section>
             <!------------------------ about ------------------------->
-            <section class="section about" aria-label="about">
+            <section class="section about" aria-label="about" id="about">
                 <div class="container">
                     <div class="wrapper">
                         <div data-reveal="left">
@@ -125,7 +128,7 @@
                 
             </section> -->
             <!------------------------ project ------------------------->
-            <section class="section project" aria-labelledby="project-label">
+            <section class="section project" aria-labelledby="project-label" id="project">
                 <div class="container">
                     <div class="title-wrapper" data-reveal="top">
                         <div>
@@ -148,8 +151,12 @@
                                         A Mobile app aims to help people who want to apply for or already own credit products; to save their time and energy in applying by offering them recommendations based on their special needs.
                                     </p>
 
-                                    <a href="#" class="btn-text" style="color:#a07cc5">
+                                    <a href="https://github.com/Hanxmao/1800-202230-DTC16" class="btn-text" style="color:#a07cc5" target="_blank">
                                         <span>See Code</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                    <a href="#" class="btn-text" style="color:#a07cc5" target="_blank">
+                                        <span>Watch Live</span>
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                     </a>
 
@@ -173,8 +180,12 @@
                                         A homemade meal web app to connect home cooks and customers. Home cooks can create meals and set up price while customers can order meals and give them reviews.
                                     </p>
 
-                                    <a href="#" class="btn-text" style="color:#3f78e0">
+                                    <a href="https://github.com/Hanxmao/Homemade_Meals_APP" class="btn-text" style="color:#3f78e0" target="_blank">
                                         <span>See Code</span>
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+                                    <a href="https://www.youtube.com/watch?v=sMqee24ct54" class="btn-text" style="color:#3f78e0" target="_blank">
+                                        <span>Watch live</span>
                                         <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
                                     </a>
 
@@ -189,7 +200,7 @@
                 </div>
             </section>
             <!------------------------- contact ------------------------>
-            <section class="section contact" aria-label="contact">
+            <section class="section contact" aria-label="contact" id="contact">
                 <div class="container">
                     <div class="contact-card">
                         <div class="contact-content" data-reveal="left">
