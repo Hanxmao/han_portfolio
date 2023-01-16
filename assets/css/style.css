@@ -428,9 +428,9 @@ body.nav-active {
   padding: var(--padding);
  }
 
-.project-card-1 {
+/* .project-card-1 {
   padding-block-end: 0;
-}
+} */
 
 .project-card .card-tag {
   font-size: var(--fs-8);
