@@ -16,13 +16,6 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- preload image -->
     <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
-    </script>
-    <script type="text/javascript">
-        (function () {
-            emailjs.init("ujZodUI_1SupV9PPu");
-        })();
-    </script>
 </head>
 
 <body>
@@ -452,35 +445,36 @@
             <!------------------------- contact ------------------------>
             <section class="section contact" aria-label="contact" id="contact">
                 <div class="container">
-                    <div class="contact-card">
-                        <div class="contact-content" data-reveal="left">
-                            <div class="card-icon">
-                                <img src="./assets//images//icon-5.svg" width="44" height="44" alt="contact icon">
-                            </div>
-                            <h2 class="h2 section-title">Contact me</h2>
-
-                            <p class="section-text">
-                                Let's get in touch and start a conversation!
-                            </p>
-                        </div>
-
-                        <form action="" class="contact-form" data-reveal="right" id="contact-form">
-                            <div class="input-wrapper">
-                                <input type="text" class="input-field" name="name" placeholder="Name *" required
-                                    id="contact-name">
-                                <input type="email" class="input-field" name="email_address" placeholder="Email *"
-                                    required id="contact-email">
-                            </div>
-
-                            <textarea name="message" placeholder="Message *" required class="input-field"
-                                id="contact-message"></textarea>
-
-                            <button type="submit" class="btn btn-secondary">Send Message</button>
-                            <p class="contact__status" id="contact-status"></p>
-                        </form>
+                  <div class="contact-card">
+                    <div class="contact-content" data-reveal="left">
+                      <div class="card-icon">
+                        <img src="./assets/images/icon-5.svg" width="44" height="44" alt="contact icon">
+                      </div>
+                      <h2 class="h2 section-title">Contact me</h2>
+                      <p class="section-text">
+                        Let's get in touch and start a conversation!
+                      </p>
                     </div>
+              
+                    <form action="https://formsubmit.co/766cbb4914cf284a2ad9fcfde59fde29" method="POST" class="contact-form" data-reveal="right">
+                      <!-- Hidden Inputs for FormSubmit -->
+                      <input type="hidden" name="_subject" value="New message from portfolio site">
+                      <input type="hidden" name="_template" value="table">
+                      <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I'll get back to you soon.">
+                      <input type="hidden" name="_captcha" value="false">
+              
+                      <div class="input-wrapper">
+                        <input type="text" class="input-field" name="name" placeholder="Name *" required>
+                        <input type="email" class="input-field" name="email" placeholder="Email *" required>
+                      </div>
+              
+                      <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+              
+                      <button type="submit" class="btn btn-secondary">Send Message</button>
+                    </form>
+                  </div>
                 </div>
-            </section>
+              </section>
             <!-------------------------- footer ------------------------>
             <footer class="footer">
                 <div class="container">
